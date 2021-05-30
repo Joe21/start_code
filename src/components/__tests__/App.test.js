@@ -11,7 +11,6 @@ describe('App', () => {
   })
 
   it('renders Hello World', () => {
-    // console.log($rendered.getByText('Hello World'))
     expect($rendered.getByText('Hello World')).toBeInTheDocument()
   })
 })
